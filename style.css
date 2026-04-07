@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  /* fondo xddd */
+  background: linear-gradient(180deg,#7A2D34,#E65560);
+}
+
+
+.card{
+  width:300px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.top{
+  height: 100px;
+  background:#702B30;
+  border-radius: 20px 20px 0 0;
+}
+
+/*foto lol  */
+.profile{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border: 5px solid white;
+position: absolute;
+top: 50px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+/*texto xd  */
+
+h2{
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+p{
+  font-size: 14px;
+  color:gray;
+}
+
+/* links */
+.fotos-redes{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s
+}
+
+.fotos-redes a{
+  display: flex;
+  align-items: center;
+  gap:10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  transition: .3s;
+}
+
+
+.fotos-redes img{
+  width: 25px;
+  height: 25px;
+}
+
+.fotos-redes a:hover{
+  background:#eaeaea ;
+}
